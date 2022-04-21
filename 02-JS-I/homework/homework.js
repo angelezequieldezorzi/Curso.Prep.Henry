@@ -42,14 +42,14 @@ function suma(x, y) {
 function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
   // Tu código:
-  var resta = x + y ;
+  var resta = x - y ;
   return resta;
 }
 
 function multiplica(x, y) {
   // Multiplica "x" por "y" y devuelve el valor
   // Tu código:
-  var multiplica = x + y ;
+  var multiplica = x * y ;
   return multiplica;
 }
 
@@ -72,15 +72,15 @@ function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-  if ("x" === "y") {return true;}
-  return false;
+  if (str1.length === str2.length) { return true;
+  } else {return false;}
 }
 
 function menosQueNoventa(num) {
   // Devuelve "true" si el argumento de la función "num" es menor que noventa
   // De lo contrario, devuelve "false"
   // Tu código:
-  
+
 }
 
 function mayorQueCincuenta(num) {
