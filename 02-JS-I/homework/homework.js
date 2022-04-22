@@ -194,8 +194,7 @@ function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
-  var saludo = ("Hola"+ nombre + "!");
-  return saludo;
+  return "Hola"+ {nombre} + "!";
 }
 
 function obtenerAreaRectangulo(alto, ancho) {
