@@ -186,15 +186,16 @@ function combinarNombres(nombre, apellido) {
   // Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
   // Ejemplo: "Soy", "Henry" -> "Soy Henry"
   // Tu código:
-  var presentacion = ("nombre" , + "apellido");
-  return presentacion;
+ var comb = nombre +" "+ apellido;
+ return comb;
 }
 
 function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
-
+  var saludo = "Hola"+ " " + nombre +"!";
+return saludo;
 }
 
 function obtenerAreaRectangulo(alto, ancho) {
@@ -236,20 +237,14 @@ function esVocal(letra){
   //que no se puede procesar el dato mediante el mensaje "Dato incorrecto".
   // Si no es vocal, tambien debe devolver "Dato incorrecto".
   //Escribe tu código aquí
-  if (letra === "a"){return "Es vocal";}
-  else if (leta === "e"){return "Es vocal";}
-  else if (leta === "i"){return "Es vocal";}
-  else if (leta === "o"){return "Es vocal";}
-  else if (leta === "u"){return "Es vocal";}
-  else if (leta === "A"){return "Es vocal";}
-  else if (leta === "E"){return "Es vocal";}
-  else if (leta === "I"){return "Es vocal";}
-  else if (leta === "O"){return "Es vocal";}
-  else if (leta === "U"){return "Es vocal";}
-  else if (letra.length > 1){return "Dato incorrecto";}
-  else
-{return "Dato incorrecto";}
-}
+  if (letra.length > 1) {
+    return "Dato incorrecto"
+  }
+  if (  letra == "a" || letra ==="e" || letra ==="i" || letra === "o" || letra ==="u") {
+    return "Es vocal"}
+    else 
+    {return "Dato incorrecto"}
+  }
 
 
 // No modificar nada debajo de esta línea
